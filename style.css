@@ -8,6 +8,7 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 body{
     background:var(--body-background-color);
@@ -95,4 +96,46 @@ body{
 .login-stay-sign-in span{
 	padding-left: 5px;
 	line-height: 25px;
+}
+.login-slmple {
+    width: 450px;
+    width: 50px;
+}
+.login-slmple .login-slmple-login {
+    margin-top: 50px;
+    align-items: center;
+    text-align:  center;
+    font-size: 14px;
+}
+.btton-login-box{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    padding-top: 20px;
+
+}
+.btton-login-box button {
+    margin-left: 20px;
+    width: 219px;
+    height: 50px;
+   font-size: 15px;
+   background-color: #fff;
+   border: solid 1px #04c75a;
+
+}
+.forget-msg{
+    font-size: 14px;
+    color: #8e8e8e;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box { 
+    width: 450px;
+    height: 140px;
+}
+
+.footer-box .naver-pay-img{
+    padding-top: 40px;
 }
