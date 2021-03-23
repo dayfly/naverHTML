@@ -9,6 +9,11 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    font-family: NanumSquareRound;
+}
+@font-face{
+    font-family: NanumSquareRound;
+    src:url(font/NanumSquareRound.ttf);
 }
 body{
     background:var(--body-background-color);
